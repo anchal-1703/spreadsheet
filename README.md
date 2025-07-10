@@ -36,7 +36,7 @@ This project is a **static React prototype** of a Google Sheets/Excel-like sprea
 - [Vite](https://vitejs.dev/)
 - [TypeScript (strict mode)](https://www.typescriptlang.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
-- [`@tanstack/react-table`](https://tanstack.com/table) *(optional or partially used)*
+
 
 ---
 
