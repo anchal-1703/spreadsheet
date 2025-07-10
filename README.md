@@ -5,6 +5,20 @@ This project is a **static React prototype** of a Google Sheets/Excel-like sprea
 ---
 
 ## ✨ Features
+- Pixel-close match with the provided Figma design  
+- Editable spreadsheet-style table
+- Toolbar with:
+  - **Import/Export JSON**
+  - **Sort by Submitted Date**
+  - **Filter by Priority**
+  - **Toggle Hidden Fields**
+  - **Compact / Cell View Mode**
+  - **Add New Row**
+  - **Column hiding and resizing support**
+- Tag-based status/priority styling
+- Search with highlight
+- URL preview + currency formatting
+- ESLint, Prettier, and strict TypeScript compliance  
 
 ✅ Pixel-close match with the provided Figma design  
 ✅ Editable spreadsheet-style table  
@@ -30,7 +44,7 @@ This project is a **static React prototype** of a Google Sheets/Excel-like sprea
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/spreadsheet-app.git
+git clone https://github.com/anchal-1703/spreadsheet.git
 cd spreadsheet-app
 
 # 2. Install dependencies
@@ -41,3 +55,24 @@ npm run dev
 
 # 4. Build for production
 npm run build
+
+```
+##  Trade-offs & Notes
+-  No backend — data is not persisted after reload.
+
+-  Sorting is fixed to "Submitted Date (DD-MM-YYYY)" and doesn't handle time or other formats yet.
+
+-  Filtering is hardcoded to "High Priority" (can be extended to dropdown filters).
+
+-  Good prototype to extend into Airtable-style database or task board.
+
+-  Handles blank rows gracefully during sort.
+
+##  Future Improvements
+- Column-based sorting with toggles (ASC/DESC)
+
+- Drag-and-drop row/column reordering
+
+- Persist data to local storage or backend
+
+- Column visibility dropdown instead of hardcoded button
