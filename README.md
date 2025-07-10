@@ -1,6 +1,6 @@
 # 🧮 React Spreadsheet UI – Intern Assignment
 
-This project is a **static React prototype** of a Google Sheets/Excel-like spreadsheet interface, built as part of an intern assignment. The goal was to recreate a pixel-perfect, responsive UI matching the provided [Figma design](https://www.figma.com/design/3nywpu5sz45RrCmwe68QZP/Intern-Design-Assigment?node-id=2-2535&t=DJGGMt8I4fiZjoIB-1) and simulate spreadsheet-like behavior using React, TypeScript, Tailwind CSS, and optionally `react-table`.
+This project is a **static React prototype** of a Google Sheets/Excel-like spreadsheet interface, built as part of an intern assignment. The goal was to recreate a pixel-perfect, responsive UI matching the provided [Figma design](https://www.figma.com/design/3nywpu5sz45RrCmwe68QZP/Intern-Design-Assigment?node-id=2-2535&t=DJGGMt8I4fiZjoIB-1) and simulate spreadsheet-like behavior using React, TypeScript, and Tailwind CSS
 
 ---
 
